@@ -53,3 +53,25 @@
 **视频播放器实现了：全屏半屏切换，控制操作栏的显示与隐藏，播放和暂停，进度时时显示，播放时长和总时长的格式化显示，手势操作的一部分等功能。**
 
 
+音频播放器部分我们使用第三方插件库AudioPlayers ：https://pub.dev/packages/audioplayers ，这个插件库也是调用的原生播放，只不过封装了一层API。我们也可以自己写插件，基于原生的一些播放器API进行封装。
+这个audioplayers插件对应的原生调用分别是：
+* Android平台：MediaPlayer
+* IOS平台：AVAudioPlayer
+
+接下来我们看下我们实现的效果图：
+
+
+![音频播放器的效果图](https://github.com/jaychou2012/flutter_video_audio/blob/master/screenshot/gifhome_540x960_7s.gif?raw=true)
+
+静态效果图：
+
+![音频播放器的效果图](https://github.com/jaychou2012/flutter_video_audio/blob/master/screenshot/device-2019-08-08-233521.png?raw=true)
+
+
+**音频播放器实现了：播放、暂停、停止销毁、进度时时显示、播放时长和总时长的格式化显示，状态监听、支持播放网络音频文件、本地音频文件、资源目录音频文件。**
+
+推荐课程：
+
+![推荐课程](https://raw.githubusercontent.com/jaychou2012/flutter_notes/master/screenshot/20190804222342.jpg)
+
+
