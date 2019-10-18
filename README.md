@@ -70,8 +70,4 @@
 
 **音频播放器实现了：播放、暂停、停止销毁、进度时时显示、播放时长和总时长的格式化显示，状态监听、支持播放网络音频文件、本地音频文件、资源目录音频文件。**
 
-推荐课程：
-
-![推荐课程](https://raw.githubusercontent.com/jaychou2012/flutter_notes/master/screenshot/20190804222342.jpg)
-
 
